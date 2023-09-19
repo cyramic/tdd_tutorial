@@ -1,5 +1,2 @@
-def add_numbers(a:int, b:int)->int:
-    try:
-        return int(a) + int(b)
-    except ValueError as errinfo:
-        return False
+def add_numbers(number_list:list)->int:
+    return sum(number_list)
