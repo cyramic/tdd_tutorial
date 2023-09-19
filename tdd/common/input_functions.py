@@ -1,4 +1,7 @@
 def get_input_values():
-    num_a = input("Enter a number: ")
-    num_b = input("Enter a second number: ")
-    return num_a, num_b
+    input = input("Enter a bunch of numbers separated by spaces: ")
+    return input
+
+
+def get_values_from_input(input: str):
+    return
