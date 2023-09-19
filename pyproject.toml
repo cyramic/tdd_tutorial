@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Matthew Pugh <pughmds@cyram.org>"]
 readme = "README.md"
-packages = [{include = "tdd_tutorial"}]
+packages = [{include = "tdd"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
